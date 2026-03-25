@@ -21601,8 +21601,8 @@ function $c_Lfrets_frontend_CaosConfig$() {
     var $$x1 = new $c_sci_$colon$colon($$x6, new $c_sci_$colon$colon($$x5, new $c_sci_$colon$colon($$x4, new $c_sci_$colon$colon($$x3, new $c_sci_$colon$colon(new $c_Lcaos_frontend_Configurator$Toggle("+Examples", y$4, false, false, ""), $m_sci_Nil$())))))
   };
   this.Lfrets_frontend_CaosConfig$__f_toggles = $$x1;
-  this.Lfrets_frontend_CaosConfig$__f_footerTS = ($m_sc_StringOps$(), $m_sc_StringOps$().stripMargin$extension__T__C__T("<strong>Widgets marked with (*) are not meaningfull when using multiple systems.</strong>\n      | Source code at: <a target=\"_blank\"\n      | href=\"https://anonymous.4open.science/r/frets\">\n      | https://anonymous.4open.science/r/frets</a>. This is a companion tool for\n      | a paper submitted to VARS 2026.\n      | Click the (?) on the headers of the widgets for more information.\n      |", 124));
-  this.Lfrets_frontend_CaosConfig$__f_footerFRTS = ($m_sc_StringOps$(), $m_sc_StringOps$().stripMargin$extension__T__C__T("Source code at: <a target=\"_blank\"\n      | href=\"https://anonymous.4open.science/r/frets\">\n      | https://anonymous.4open.science/r/frets</a>. This is a companion tool for\n      | a paper submitted to VARS 2026.\n      | Click the (?) on the headers of the widgets for more information. \n      |", 124));
+  this.Lfrets_frontend_CaosConfig$__f_footerTS = ($m_sc_StringOps$(), $m_sc_StringOps$().stripMargin$extension__T__C__T("<strong>Widgets marked with (*) are not meaningfull when using multiple systems.</strong>\n      | Source code at: <a target=\"_blank\"\n      | href=\"https://anonymous.4open.science/r/frets\">\n      | https://anonymous.4open.science/r/frets</a>. This is a companion tool for\n      | a paper submitted to VARIABILITY 2026.\n      | Click the (?) on the headers of the widgets for more information.\n      |", 124));
+  this.Lfrets_frontend_CaosConfig$__f_footerFRTS = ($m_sc_StringOps$(), $m_sc_StringOps$().stripMargin$extension__T__C__T("Source code at: <a target=\"_blank\"\n      | href=\"https://anonymous.4open.science/r/frets\">\n      | https://anonymous.4open.science/r/frets</a>. This is a companion tool for\n      | a paper submitted to VARIABILITY 2026.\n      | Click the (?) on the headers of the widgets for more information. \n      |", 124));
   this.Lfrets_frontend_CaosConfig$__f_footer = (this.Lfrets_frontend_CaosConfig$__f_justTS ? this.Lfrets_frontend_CaosConfig$__f_footerTS : this.Lfrets_frontend_CaosConfig$__f_footerFRTS);
   $m_sc_StringOps$();
   $m_sc_StringOps$().stripMargin$extension__T__C__T(" ", 124);
@@ -21967,34 +21967,35 @@ $c_Lfrets_frontend_CaosConfig$.prototype.widgetsTS__sci_List = (function() {
         return $f_T__replaceAll__T__T__T($n(s$1), "/", "_")
       }))))
     })))));
-    var $$x11 = $f_sc_IterableOnceOps__mkString__T__T__T__T(this$63, "", ",", "");
-    var this$64 = $n(procs);
-    var this$65 = $n($m_sci_Set$().from__sc_IterableOnce__sci_Set(this$64));
-    return (((((("init " + init) + ";\n") + ("act\n  " + $$x11)) + ";\n") + "proc\n") + $f_sc_IterableOnceOps__mkString__T__T__T__T(this$65, "", "\n", ""))
+    var this$64 = $n($m_sci_Set$().from__sc_IterableOnce__sci_Set($as_sc_IterableOnce(this$63)));
+    var $$x11 = $f_sc_IterableOnceOps__mkString__T__T__T__T(this$64, "", ",", "");
+    var this$65 = $n(procs);
+    var this$66 = $n($m_sci_Set$().from__sc_IterableOnce__sci_Set(this$65));
+    return (((((("init " + init) + ";\n") + ("act\n  " + $$x11)) + ";\n") + "proc\n") + $f_sc_IterableOnceOps__mkString__T__T__T__T(this$66, "", "\n", ""))
   })), $m_Lcaos_view_Text$());
   var $$x12 = new $c_T2("As mCRL2*", y$6);
   var $$x6 = $m_Lcaos_frontend_Configurator$();
   var $$x4 = new $c_sjsr_AnonFunction1(((e$4$1) => {
     var e$7 = $as_Lfrets_syntax_FRTS(e$4$1);
-    var this$69 = $n($m_s_Predef$().s_Predef$__f_Set);
+    var this$70 = $n($m_s_Predef$().s_Predef$__f_Set);
     var $$x5 = $m_sr_ScalaRunTime$();
-    var this$68 = $n(e$7);
-    var elems$5 = $n($$x5).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$68.project__sci_Set__Lfrets_syntax_RTS(this$68.Lfrets_syntax_FRTS__f_main)]));
-    return this$69.from__sc_IterableOnce__sci_Set(elems$5)
+    var this$69 = $n(e$7);
+    var elems$5 = $n($$x5).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$69.project__sci_Set__Lfrets_syntax_RTS(this$69.Lfrets_syntax_FRTS__f_main)]));
+    return this$70.from__sc_IterableOnce__sci_Set(elems$5)
   }));
   var sos = $m_Lfrets_backend_RTSSemantics$();
   var y$7 = $n($$x6).lts__F1__Lcaos_sos_SOS__F1__F1__I__Lcaos_frontend_widgets_WidgetInfo($$x4, new $c_Lcaos_sos_FinAut$$anon$2(sos), new $c_sjsr_AnonFunction1(((x$3) => {
     var x$4 = $as_sci_Set(x$3);
-    var this$71 = $n($as_sc_IterableOnceOps($n(x$4).map__F1__O(new $c_sjsr_AnonFunction1(((_$3) => {
+    var this$72 = $n($as_sc_IterableOnceOps($n(x$4).map__F1__O(new $c_sjsr_AnonFunction1(((_$3) => {
       var _$3$1 = $as_Lfrets_syntax_RTS(_$3);
       return $n($n(_$3$1).Lfrets_syntax_RTS__f_inits).toString__T()
     })))));
-    return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$71, "", ",", "")
+    return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$72, "", ",", "")
   })), new $c_sjsr_AnonFunction1(((_$4) => {
     var _$4$1 = $as_Lfrets_syntax_QName(_$4);
-    var this$72 = $n(_$4$1);
-    var this$73 = $n(this$72.Lfrets_syntax_QName__f_n);
-    return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$73, "", "/", "")
+    var this$73 = $n(_$4$1);
+    var this$74 = $n(this$73.Lfrets_syntax_QName__f_n);
+    return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$74, "", "/", "")
   })), 80);
   var $$x7 = new $c_T2("As DFA*", y$7);
   var y$8 = $m_Lcaos_frontend_Configurator$().ltsCustom__F1__I__Lcaos_frontend_widgets_WidgetInfo(new $c_sjsr_AnonFunction1(((e$5$1) => {
@@ -22003,11 +22004,11 @@ $c_Lfrets_frontend_CaosConfig$.prototype.widgetsTS__sci_List = (function() {
       var \u03b412$;
       var $$x3 = $m_Lcaos_sos_FinAut$();
       var $$x2 = $m_Lfrets_backend_RTSSemantics$();
-      var this$77 = $n($m_s_Predef$().s_Predef$__f_Set);
+      var this$78 = $n($m_s_Predef$().s_Predef$__f_Set);
       var $$x1 = $m_sr_ScalaRunTime$();
-      var this$76 = $n(e$8);
-      var elems$6 = $n($$x1).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$76.project__sci_Set__Lfrets_syntax_RTS(this$76.Lfrets_syntax_FRTS__f_main)]));
-      var x27 = $n($$x3).minSOS__Lcaos_sos_SOS__sci_Set__I__T3($$x2, this$77.from__sc_IterableOnce__sci_Set(elems$6), 5000);
+      var this$77 = $n(e$8);
+      var elems$6 = $n($$x1).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$77.project__sci_Set__Lfrets_syntax_RTS(this$77.Lfrets_syntax_FRTS__f_main)]));
+      var x27 = $n($$x3).minSOS__Lcaos_sos_SOS__sci_Set__I__T3($$x2, this$78.from__sc_IterableOnce__sci_Set(elems$6), 5000);
       if ((x27 !== null)) {
         var i = $as_sci_Set($n(x27).T3__f__1);
         var s$2 = $as_Lcaos_sos_SOS($n(x27).T3__f__2);
@@ -22020,17 +22021,17 @@ $c_Lfrets_frontend_CaosConfig$.prototype.widgetsTS__sci_List = (function() {
     var s$2$1 = $as_Lcaos_sos_SOS($n(\u03b412$)._2__O());
     var _3 = new $c_sjsr_AnonFunction1(((x$5) => {
       var x$6 = $as_sci_Set(x$5);
-      var this$79 = $n($as_sc_IterableOnceOps($n(x$6).map__F1__O(new $c_sjsr_AnonFunction1(((_$5) => {
+      var this$80 = $n($as_sc_IterableOnceOps($n(x$6).map__F1__O(new $c_sjsr_AnonFunction1(((_$5) => {
         var _$5$1 = $as_Lfrets_syntax_RTS(_$5);
         return $n($n(_$5$1).Lfrets_syntax_RTS__f_inits).toString__T()
       })))));
-      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$79, "", ",", "")
+      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$80, "", ",", "")
     }));
     var _4 = new $c_sjsr_AnonFunction1(((_$6) => {
       var _$6$1 = $as_Lfrets_syntax_QName(_$6);
-      var this$80 = $n(_$6$1);
-      var this$81 = $n(this$80.Lfrets_syntax_QName__f_n);
-      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$81, "", "/", "")
+      var this$81 = $n(_$6$1);
+      var this$82 = $n(this$81.Lfrets_syntax_QName__f_n);
+      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$82, "", "/", "")
     }));
     return new $c_T4(i$2, s$2$1, _3, _4)
   })), 80);
@@ -22553,30 +22554,31 @@ $c_Lfrets_frontend_CaosConfig$.prototype.widgetsFRTS__sci_List = (function() {
         return $f_T__replaceAll__T__T__T($n(s$1), "/", "_")
       }))))
     })))));
-    var $$x17 = $f_sc_IterableOnceOps__mkString__T__T__T__T(this$133, "", ",", "");
-    var this$134 = $n(procs);
-    var this$135 = $n($m_sci_Set$().from__sc_IterableOnce__sci_Set(this$134));
-    return (((((("init " + init) + ";\n") + ("act\n  " + $$x17)) + ";\n") + "proc\n") + $f_sc_IterableOnceOps__mkString__T__T__T__T(this$135, "", "\n", ""))
+    var this$134 = $n($m_sci_Set$().from__sc_IterableOnce__sci_Set($as_sc_IterableOnce(this$133)));
+    var $$x17 = $f_sc_IterableOnceOps__mkString__T__T__T__T(this$134, "", ",", "");
+    var this$135 = $n(procs);
+    var this$136 = $n($m_sci_Set$().from__sc_IterableOnce__sci_Set(this$135));
+    return (((((("init " + init) + ";\n") + ("act\n  " + $$x17)) + ";\n") + "proc\n") + $f_sc_IterableOnceOps__mkString__T__T__T__T(this$136, "", "\n", ""))
   })), $m_Lcaos_view_Text$());
   var $$x18 = new $c_T2("Project & unfold (TS as mCRL2)", y$17);
   var y$18 = $m_Lcaos_frontend_Configurator$().ltsCustom__F1__I__Lcaos_frontend_widgets_WidgetInfo(new $c_sjsr_AnonFunction1(((e$9$1) => {
     var e$12 = $as_Lfrets_syntax_FRTS(e$9$1);
-    var this$139 = $n($m_s_Predef$().s_Predef$__f_Set);
+    var this$140 = $n($m_s_Predef$().s_Predef$__f_Set);
     var $$x12 = $m_sr_ScalaRunTime$();
-    var this$138 = $n($m_s_Predef$().s_Predef$__f_Set);
+    var this$139 = $n($m_s_Predef$().s_Predef$__f_Set);
     var elems$5 = $m_sr_ScalaRunTime$().wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([$n(e$12).Lfrets_syntax_FRTS__f_rts]));
-    var elems$6 = $n($$x12).wrapRefArray__AO__sci_ArraySeq(new ($d_sci_Set.getArrayOf().constr)([this$138.from__sc_IterableOnce__sci_Set(elems$5)]));
-    var _1$2 = this$139.from__sc_IterableOnce__sci_Set(elems$6);
+    var elems$6 = $n($$x12).wrapRefArray__AO__sci_ArraySeq(new ($d_sci_Set.getArrayOf().constr)([this$139.from__sc_IterableOnce__sci_Set(elems$5)]));
+    var _1$2 = this$140.from__sc_IterableOnce__sci_Set(elems$6);
     var pk$2 = $n(e$12).Lfrets_syntax_FRTS__f_pk;
     var sos = new $c_Lfrets_backend_RTSSemantics$$anon$1(pk$2);
     var _2$2 = new $c_Lcaos_sos_FinAut$$anon$2(sos);
     var _3$2 = new $c_sjsr_AnonFunction1(((x$14) => {
       var x$15 = $as_sci_Set(x$14);
-      var this$142 = $n($as_sc_IterableOnceOps($n(x$15).map__F1__O(new $c_sjsr_AnonFunction1(((_$19) => {
+      var this$143 = $n($as_sc_IterableOnceOps($n(x$15).map__F1__O(new $c_sjsr_AnonFunction1(((_$19) => {
         var _$19$1 = $as_Lfrets_syntax_RTS(_$19);
         return $n($n(_$19$1).Lfrets_syntax_RTS__f_inits).toString__T()
       })))));
-      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$142, "", ",", "")
+      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$143, "", ",", "")
     }));
     var _4$2 = new $c_sjsr_AnonFunction1(((_$20) => {
       var _$20$1 = $as_T2(_$20);
@@ -22592,11 +22594,11 @@ $c_Lfrets_frontend_CaosConfig$.prototype.widgetsFRTS__sci_List = (function() {
       var $$x10 = $m_Lcaos_sos_FinAut$();
       var pk$3 = $n(e$13).Lfrets_syntax_FRTS__f_pk;
       var $$x9 = new $c_Lfrets_backend_RTSSemantics$$anon$1(pk$3);
-      var this$148 = $n($m_s_Predef$().s_Predef$__f_Set);
+      var this$149 = $n($m_s_Predef$().s_Predef$__f_Set);
       var $$x8 = $m_sr_ScalaRunTime$();
-      var this$147 = $n(e$13);
-      var elems$7 = $n($$x8).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$147.project__sci_Set__Lfrets_syntax_RTS(this$147.Lfrets_syntax_FRTS__f_main)]));
-      var x95 = $n($$x10).minSOS__Lcaos_sos_SOS__sci_Set__I__T3($$x9, this$148.from__sc_IterableOnce__sci_Set(elems$7), 5000);
+      var this$148 = $n(e$13);
+      var elems$7 = $n($$x8).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$148.project__sci_Set__Lfrets_syntax_RTS(this$148.Lfrets_syntax_FRTS__f_main)]));
+      var x95 = $n($$x10).minSOS__Lcaos_sos_SOS__sci_Set__I__T3($$x9, this$149.from__sc_IterableOnce__sci_Set(elems$7), 5000);
       if ((x95 !== null)) {
         var i$1 = $as_sci_Set($n(x95).T3__f__1);
         var s$2 = $as_Lcaos_sos_SOS($n(x95).T3__f__2);
@@ -22609,11 +22611,11 @@ $c_Lfrets_frontend_CaosConfig$.prototype.widgetsFRTS__sci_List = (function() {
     var s$2$1 = $as_Lcaos_sos_SOS($n(\u03b46$)._2__O());
     var _3$3 = new $c_sjsr_AnonFunction1(((x$16) => {
       var x$17 = $as_sci_Set(x$16);
-      var this$150 = $n($as_sc_IterableOnceOps($n(x$17).map__F1__O(new $c_sjsr_AnonFunction1(((_$21) => {
+      var this$151 = $n($as_sc_IterableOnceOps($n(x$17).map__F1__O(new $c_sjsr_AnonFunction1(((_$21) => {
         var _$21$1 = $as_Lfrets_syntax_RTS(_$21);
         return $n($n(_$21$1).Lfrets_syntax_RTS__f_inits).toString__T()
       })))));
-      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$150, "", ",", "")
+      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$151, "", ",", "")
     }));
     var _4$3 = new $c_sjsr_AnonFunction1(((_$22) => {
       var _$22$1 = $as_T2(_$22);
@@ -22625,25 +22627,25 @@ $c_Lfrets_frontend_CaosConfig$.prototype.widgetsFRTS__sci_List = (function() {
   var $$x6 = $m_Lcaos_frontend_Configurator$();
   var $$x4 = new $c_sjsr_AnonFunction1(((e$11$1) => {
     var e$14 = $as_Lfrets_syntax_FRTS(e$11$1);
-    var this$155 = $n($m_s_Predef$().s_Predef$__f_Set);
+    var this$156 = $n($m_s_Predef$().s_Predef$__f_Set);
     var $$x5 = $m_sr_ScalaRunTime$();
-    var this$154 = $n(e$14);
-    var elems$8 = $n($$x5).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$154.project__sci_Set__Lfrets_syntax_RTS(this$154.Lfrets_syntax_FRTS__f_main)]));
-    return this$155.from__sc_IterableOnce__sci_Set(elems$8)
+    var this$155 = $n(e$14);
+    var elems$8 = $n($$x5).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$155.project__sci_Set__Lfrets_syntax_RTS(this$155.Lfrets_syntax_FRTS__f_main)]));
+    return this$156.from__sc_IterableOnce__sci_Set(elems$8)
   }));
   var sos$1 = $m_Lfrets_backend_RTSSemantics$();
   var y$20 = $n($$x6).lts__F1__Lcaos_sos_SOS__F1__F1__I__Lcaos_frontend_widgets_WidgetInfo($$x4, new $c_Lcaos_sos_FinAut$$anon$2(sos$1), new $c_sjsr_AnonFunction1(((x$5$2) => {
     var x$18 = $as_sci_Set(x$5$2);
-    var this$157 = $n($as_sc_IterableOnceOps($n(x$18).map__F1__O(new $c_sjsr_AnonFunction1(((_$23) => {
+    var this$158 = $n($as_sc_IterableOnceOps($n(x$18).map__F1__O(new $c_sjsr_AnonFunction1(((_$23) => {
       var _$23$1 = $as_Lfrets_syntax_RTS(_$23);
       return $n($n(_$23$1).Lfrets_syntax_RTS__f_inits).toString__T()
     })))));
-    return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$157, "", ",", "")
+    return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$158, "", ",", "")
   })), new $c_sjsr_AnonFunction1(((_$24) => {
     var _$24$1 = $as_Lfrets_syntax_QName(_$24);
-    var this$158 = $n(_$24$1);
-    var this$159 = $n(this$158.Lfrets_syntax_QName__f_n);
-    return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$159, "", "/", "")
+    var this$159 = $n(_$24$1);
+    var this$160 = $n(this$159.Lfrets_syntax_QName__f_n);
+    return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$160, "", "/", "")
   })), 80);
   var $$x7 = new $c_T2("Unfold & project & determinise", y$20);
   var y$21 = $m_Lcaos_frontend_Configurator$().ltsCustom__F1__I__Lcaos_frontend_widgets_WidgetInfo(new $c_sjsr_AnonFunction1(((e$12$1) => {
@@ -22652,11 +22654,11 @@ $c_Lfrets_frontend_CaosConfig$.prototype.widgetsFRTS__sci_List = (function() {
       var \u03b47$;
       var $$x3 = $m_Lcaos_sos_FinAut$();
       var $$x2 = $m_Lfrets_backend_RTSSemantics$();
-      var this$163 = $n($m_s_Predef$().s_Predef$__f_Set);
+      var this$164 = $n($m_s_Predef$().s_Predef$__f_Set);
       var $$x1 = $m_sr_ScalaRunTime$();
-      var this$162 = $n(e$15);
-      var elems$9 = $n($$x1).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$162.project__sci_Set__Lfrets_syntax_RTS(this$162.Lfrets_syntax_FRTS__f_main)]));
-      var x99 = $n($$x3).minSOS__Lcaos_sos_SOS__sci_Set__I__T3($$x2, this$163.from__sc_IterableOnce__sci_Set(elems$9), 5000);
+      var this$163 = $n(e$15);
+      var elems$9 = $n($$x1).wrapRefArray__AO__sci_ArraySeq(new ($d_Lfrets_syntax_RTS.getArrayOf().constr)([this$163.project__sci_Set__Lfrets_syntax_RTS(this$163.Lfrets_syntax_FRTS__f_main)]));
+      var x99 = $n($$x3).minSOS__Lcaos_sos_SOS__sci_Set__I__T3($$x2, this$164.from__sc_IterableOnce__sci_Set(elems$9), 5000);
       if ((x99 !== null)) {
         var i$3 = $as_sci_Set($n(x99).T3__f__1);
         var s$3 = $as_Lcaos_sos_SOS($n(x99).T3__f__2);
@@ -22669,17 +22671,17 @@ $c_Lfrets_frontend_CaosConfig$.prototype.widgetsFRTS__sci_List = (function() {
     var s$2$2 = $as_Lcaos_sos_SOS($n(\u03b47$)._2__O());
     var _3$4 = new $c_sjsr_AnonFunction1(((x$19) => {
       var x$20 = $as_sci_Set(x$19);
-      var this$165 = $n($as_sc_IterableOnceOps($n(x$20).map__F1__O(new $c_sjsr_AnonFunction1(((_$25) => {
+      var this$166 = $n($as_sc_IterableOnceOps($n(x$20).map__F1__O(new $c_sjsr_AnonFunction1(((_$25) => {
         var _$25$1 = $as_Lfrets_syntax_RTS(_$25);
         return $n($n(_$25$1).Lfrets_syntax_RTS__f_inits).toString__T()
       })))));
-      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$165, "", ",", "")
+      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$166, "", ",", "")
     }));
     var _4$4 = new $c_sjsr_AnonFunction1(((_$26) => {
       var _$26$1 = $as_Lfrets_syntax_QName(_$26);
-      var this$166 = $n(_$26$1);
-      var this$167 = $n(this$166.Lfrets_syntax_QName__f_n);
-      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$167, "", "/", "")
+      var this$167 = $n(_$26$1);
+      var this$168 = $n(this$167.Lfrets_syntax_QName__f_n);
+      return $f_sc_IterableOnceOps__mkString__T__T__T__T(this$168, "", "/", "")
     }));
     return new $c_T4(i$2$1, s$2$2, _3$4, _4$4)
   })), 80);
